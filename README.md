@@ -23,13 +23,10 @@
 
 ---
 
-## Подходящие датасеты на Kaggle (вдохновение и альтернативы)
+##датасеты на Kaggle 
 
-| Датасет | Ссылка | Почему полезен |
-|---------|--------|----------------|
-| Analyze Your Stock Portfolio for Risks and Returns | [Kaggle](https://www.kaggle.com/datasets/abdelazizsami/analyze-your-stock-portfolio-for-risks-and-returns) | Чистые дневные цены FAANG 2020–2023 |
-| Historical Data for FAANG Stocks | [Kaggle](https://www.kaggle.com/datasets/brianthecoder/historical-data-for-faang-stocks) | Более длинная история |
-| Big Tech Stock Prices | [Kaggle](https://www.kaggle.com/datasets/evangower/big-tech-stock-prices) | Несколько крупных технологических компаний |
+
+Analyze Your Stock Portfolio for Risks and Returns | [Kaggle](https://www.kaggle.com/datasets/abdelazizsami/analyze-your-stock-portfolio-for-risks-and-returns) | Чистые дневные цены FAANG 2020–2023 |
 
 В текущей реализации данные **загружаются вживую через `yfinance`** (тот же набор тикеров). Это удобно для GitHub:
 - проект полностью воспроизводим без ручной загрузки файлов;
@@ -118,14 +115,3 @@ jupyter notebook notebooks/01_monte_carlo_portfolio_analysis.ipynb
 - Стресс-сценарии (например, принудительно повышенные корреляции)
 
 ---
-
-## Лицензия
-
-MIT License — можно свободно использовать, изменять и распространять в образовательных целях.
-
----
-
-## Отказ от ответственности
-
-Этот репозиторий **строго образовательный**.  
-Он **не является** инвестиционной рекомендацией. Прошлые результаты не гарантируют будущих. Перед принятием инвестиционных решений всегда проводите собственный анализ и консультируйтесь с квалифицированным финансовым советником.
